@@ -7,7 +7,7 @@ for i in range(n):
     aux = float(input())
     valores.append(aux)
 
-# Dias que a pessoa pode viajar
+# intervalo dias que a pessoa pode viajar
 k = int(input())
 
 # Quantidade de dinheiro que sera levado na viagem
