@@ -1,10 +1,3 @@
-###################################################
-# MC102 - Algoritmos e Programação de Computadores
-# Laboratório 7 - Nota de MC102
-# Nome:
-# RA:
-###################################################
-
 # Leitura de dados
 N = int(input())
 notas_lab = []

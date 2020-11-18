@@ -1,10 +1,3 @@
-###################################################
-# MC102 - Algoritmos e Programação de Computadores
-# Laboratório 8 - Ocorrência de Palavras
-# Nome:
-# RA:
-###################################################
-
 # Leitura de dados
 linhas = int(input())
 frases = []
@@ -14,6 +7,7 @@ buscas = {
     "similares": []
 }
 arrayPalavras = []
+palavrasDeBusca = []
 
 caractEspecial = ".?!,"
 
@@ -27,7 +21,8 @@ for i in range(0, linhas):
 palavras = int(input())
 
 for i in range(0, palavras):
-    buscas["palavras"].append(input().lower())
+    palavrasDeBusca.append(input())
+    buscas["palavras"].append(palavrasDeBusca[i].lower())
     buscas["ocorrencia"].append(0)
     buscas["similares"].append(0)
 
@@ -42,7 +37,7 @@ for palavra in range(0, palavras):
 
 # Saída de dados
 for i in range(0, palavras):
-    print("Palavra buscada:", buscas["palavras"][i])
+    print("Palavra buscada:", palavrasDeBusca[i])
     print("Ocorrencia:", buscas["ocorrencia"][i])
     print("Palavras similares:", buscas["similares"][i])
 

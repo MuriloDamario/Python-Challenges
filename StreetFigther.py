@@ -1,10 +1,3 @@
-###################################################
-# MC102 - Algoritmos e Programação de Computadores
-# Laboratório 4 - Street Fighter
-# Nome:
-# RA:
-###################################################
-
 # Leitura do hp dos lutadores
 hp_Ryu = int(input())
 hp_Ken = int(input())

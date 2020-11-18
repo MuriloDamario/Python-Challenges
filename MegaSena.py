@@ -1,10 +1,3 @@
-###################################################
-# MC102 - Algoritmos e Programação de Computadores
-# Laboratório 5 - Números da Mega-Sena
-# Nome:
-# RA:
-###################################################
-
 # Leitura de dados
 n1 = int(input(''))
 n3 = int(input(''))

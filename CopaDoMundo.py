@@ -1,10 +1,3 @@
-#####################################################
-# MC102 - Algoritmos e Programação de Computadores
-# Laboratório 9 - Copa do Mundo de Futebol
-# Nome:
-# RA:
-#####################################################
-
 # Leitura da lista de seleções
 
 selecoes = []
