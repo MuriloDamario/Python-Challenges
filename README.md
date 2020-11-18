@@ -1,2 +1,2 @@
 # Python-Challenges
-Neste repositório tem códigos em python que fiz para resolver desafios propostos na faculdade
+Em breve será disponibilizado os enunciados dos códigos deste repositório
