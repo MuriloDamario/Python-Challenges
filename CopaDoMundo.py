@@ -21,15 +21,11 @@ for i in range(16):
     primeiro_time = valores[0]
     segundo_time = valores[4]
 
-    # Prints
-    # print(f'time 1  {primeiro_time}' )
-    # print(f'time 2  {segundo_time}' )
+
 
     if len(valores) > 5:
         segundo_time = valores[7]
 
-        # Prints
-        # print(f'time 2  {segundo_time}' )
 
         # Partida Normal (Ja tira um pq entrou na condição dos penaltis)
         dic[segundo_time]['normal'] -= 1
@@ -43,9 +39,6 @@ for i in range(16):
         gol_primeiro_time = int(valores[4].replace('(', ''))
         gol_segundo_time = int(valores[6].replace(')', ''))
 
-        # Prints
-        # print(f'gol time 1 penaltis {gol_primeiro_time}' )
-        # print(f'gol time 2 penaltis {gol_segundo_time}')
 
         if gol_primeiro_time > gol_segundo_time:
             dic[primeiro_time]['vitorias'] += 1
@@ -57,9 +50,6 @@ for i in range(16):
     gol_primeiro_time = int(valores[1])
     gol_segundo_time = int(valores[3])
 
-    # Prints
-    # print(f'gol time 1  {gol_primeiro_time}' )
-    # print(f'gol time 2  {gol_segundo_time}')
 
     # Primeiro time Normal
     dic[primeiro_time]['marcados'] += gol_primeiro_time
