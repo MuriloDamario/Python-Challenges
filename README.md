@@ -1,2 +1,3 @@
 # Python-Challenges
-Em breve será disponibilizado os enunciados dos códigos deste repositório
+Desafios em python realizados com a finalidade de aperfeiçoar as skills em 
+lógica de programação.
