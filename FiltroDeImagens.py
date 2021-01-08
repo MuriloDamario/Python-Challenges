@@ -1,11 +1,3 @@
-###################################################
-# MC102 - Algoritmos e Programação de Computadores
-# Laboratório 12 - Filtros de Imagens
-# Nome:
-# RA:
-###################################################
-
-
 """
 Função que recebe uma imagem e imprime essa imagem no formato PGM
 """

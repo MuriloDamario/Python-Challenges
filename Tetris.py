@@ -1,10 +1,3 @@
-###################################################
-# MC102 - Algoritmos e Programação de Computadores
-# Laboratório 11 - Tetris 2020
-# Nome:
-# RA:
-###################################################
-
 """
 Esta função recebe seis parâmetros:
 - tabuleiro: a configuração inicial do tabuleiro;

@@ -1,10 +1,3 @@
-###################################################
-# MC102 - Algoritmos e Programação de Computadores
-# Laboratório 10 - Caça-Palavras 2.0
-# Nome:
-# RA:
-###################################################
-
 """
 Esta função recebe como parâmetro uma matriz, uma posição inicial na
 matriz determinada pelos parâmetros linha e coluna e uma palavra que
