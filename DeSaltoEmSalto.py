@@ -6,6 +6,7 @@ Em caso positivo, sua função deve retornar True e, em caso negativo,
 False.
 """
 def existe_caminho(tabuleiro, a, b, c, d):
+	pass
 #   ...
 
 
@@ -19,7 +20,7 @@ a, b = [int(i) for i in input().split()]
 c, d = [int(i) for i in input().split()]
 
 # Verifica se existe caminho entre as posições dadas
-
+print(tabuleiro)
 
 
 # Impressão do resultado

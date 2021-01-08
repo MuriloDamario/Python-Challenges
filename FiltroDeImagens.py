@@ -154,11 +154,11 @@ if filtro == "negativo":
 elif filtro == "mediana":
     filtro_mediana(imagem)
 elif filtro == "blur":
-    M = [[0, -1, 0], [-1, 5, -1], [0, -1, 0]]
-    imagem = convolucao(imagem, M, 1)
-elif filtro == "sharpen":
     M = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
     imagem = convolucao(imagem, M, 9)
+elif filtro == "sharpen":
+    M = [[0, -1, 0], [-1, 5, -1], [0, -1, 0]]
+    imagem = convolucao(imagem, M, 1)
 elif filtro == "edge-detect":
     M = [[-1, -1, -1], [-1, 8, -1], [-1, -1, -1]]
     imagem = convolucao(imagem, M, 1)
