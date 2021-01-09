@@ -121,7 +121,7 @@ def convolucao(imagem, M, D):
     for row in range(1, len(img) - 1):
         img_result.append([])
         for col in range(1, len(img[0]) - 1):
-            l1 = M[0][0] * img[row - 1][col - 1] + M[0][1] * img[row - 1][col] + M[0][2] * img[row-1][col+1]
+            l1 = M[0][0] * img[row-1][col-1] + M[0][1] * img[row-1][col] + M[0][2] * img[row-1][col+1]
             l2 = M[1][0] * img[row][col-1] + M[1][1] * img[row][col] + M[1][2] * img[row][col+1]
             l3 = M[2][0] * img[row+1][col-1] + M[2][1] * img[row+1][col] + M[2][2] * img[row+1][col+1]
             p = (l1 + l2 + l3) // D
